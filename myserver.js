@@ -1,6 +1,6 @@
 var http=require('http');
 serv=http.createServer(function(req,resp){
-  resp.write("Hello World!");
+  resp.write("Hello India");
   console.log("request is received")
   resp.end("Welcome to Node server!!!");
 
